@@ -102,9 +102,9 @@ private:
 
 private: //data
     int _number_of_dims;
-    double _central_value[120];
-    double _vegas_error[120];
-    double _prob[120];
+    double _central_value[250];
+    double _vegas_error[250];
+    double _prob[250];
     int _neval,_fail;
     int _gridno;
     int _seed;

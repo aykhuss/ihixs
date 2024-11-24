@@ -149,7 +149,7 @@ void CoolInt::call_cuhre(){
 }
 
 void CoolInt::check_number_of_components(){
-    if (_number_of_components>120){
+    if (_number_of_components>250){
         cout<<"Error in vegas interface (CoolInt): number of components "<<_number_of_components
             <<" too large. Maximum allowed is 120. Change the magic number in vegas_adaptor.h for more."
             <<endl;
